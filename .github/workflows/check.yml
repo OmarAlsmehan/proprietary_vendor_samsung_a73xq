@@ -62,7 +62,7 @@ jobs:
         if: env.need_update == 1
         uses: actions/setup-node@main
         with:
-          node-version: 'latest'
+          node-version: '20'
 
       - name: Set up Python 3
         if: env.need_update == 1
